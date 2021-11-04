@@ -1,0 +1,292 @@
+*{
+  
+    font-family: 'Hind', sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 13px;
+}
+header{
+    width: 100%;
+    height: auto;
+ 
+
+}
+.bannerHeader{
+    width: 100%;
+height: 38rem;
+}
+.headerInfo{
+    position: absolute;
+    
+    width: 80%;
+    height: auto;
+    top: 30%;
+    
+    left: 10%;
+    
+}
+.headerInfo h1{
+    text-shadow:black 2px 2px 3px;color:white;
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+    text-align: center;
+    font-size: 2.5rem;
+}
+.selectSet{
+    width: 100%;
+height: auto;
+    margin-top: 1rem;
+}
+
+main{
+    
+    width: 100%;
+    height: 250rem;
+}
+#siteTanitim{
+    width: 100%;
+    height: 84rem;
+    background-color:#464854;
+    padding: 2rem;
+}
+.siteResim{
+    background-image: url(img/frt.png);
+    width: 100%;
+height: 50rem;
+    background-size: cover;
+    background-position: center;
+    
+}
+.siteInfo h1{
+    color: white;
+    margin-top: 1rem;
+}
+
+
+.siteInfo p{
+    color: white;
+    line-height: 2rem;
+}
+
+#paketler{
+    width: 100%;
+height: 127rem;
+    background-image: url(img/pr.png);
+    background-size: cover;
+    background-position: center;
+    padding: 3rem;
+}
+#yorumlar{
+    width: 100%;
+    height: 35rem;
+    
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.pencere{
+     width: 6rem;
+    height: 6rem;
+    background-color: white;
+    border-radius: 50%;
+    float: left;
+    
+padding-top: .3rem;
+    margin-right: .5rem;
+    
+}
+.profileImageBoy{
+    width: 5rem;
+    height: 5rem;
+    background-image: url(img/boy.png);
+    background-size: cover;
+    margin: auto;
+}
+
+
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color:#464854;
+    padding: 2rem;
+}
+
+
+#sectionFooter{
+    width: 100%;
+    height: 18rem;
+   
+    
+}
+#sectionFooter h1{
+    color: white;
+    text-align: center;
+}
+
+#sectionFooter hr{
+    background-color: white;
+   
+}
+#sectionFooter p{
+    color: white;
+    font-size: 1.2rem;
+	text-align: center;
+}
+	#iconOne{
+    
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-right: 15px;
+    background-image: url(img/facebook.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#iconOne:hover{
+    background-image: url(img/facebookHover.png);
+}
+#iconTwo{
+
+    width: 70px;
+    height: 70px;
+    float: left;
+	 margin-right: 15px;
+    background-image: url(img/instagram.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#iconTwo:hover{
+    background-image: url(img/instagramHover.png);
+}
+#iconTree{
+
+    width: 70px;
+    height: 70px;
+    float: left;
+	 margin-right: 15px;
+    background-image: url(img/git.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#iconTree:hover{
+     background-image: url(img/git1.png);
+}
+#iconFour{
+ margin-right: 15px;
+    width: 70px;
+    height: 70px;
+    float: left;
+    background-image: url(img/icon3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#iconFour:hover{
+    background-image: url(img/icon33.png);
+}
+@media screen and (min-width:460px){
+    html{
+        font-size: 8px;
+    }
+    .siteResim{
+        background-position: top;
+    }
+	 .headerInfo button{
+        margin-right: 20rem;
+		background-color:red;
+		color:white;
+	 font-size: 1.5rem;
+    }
+	.headerInfo button:hover{
+        margin-right: 20rem;
+		background-color:aqua;
+		color:red;
+		 font-size: 1.5rem;
+    }
+
+}
+
+
+@media screen and (min-width:1300px){
+    html{
+        font-size: 14px;
+    }
+    .headerInfo select{
+        width: 30%;
+        margin-left: 1rem;
+    }
+    .headerInfo button{
+        margin-right: 20rem;
+		background-color:red;
+		color:white;
+    }
+	.headerInfo button:hover{
+        margin-right: 20rem;
+		background-color:aqua;
+		color:red;
+    }
+    .siteResim{
+        width: 49%;
+        height: 32rem;
+        float: left;
+        margin-right: 1rem;
+      
+    }
+    .siteInfo{
+        width: 49%;
+        float: left;
+    }
+    #siteTanitim{
+        height: 37rem;
+    }
+    #paketler .jumbotron:nth-child(odd){
+        width: 48%;
+        float: left;
+    }
+     #paketler .jumbotron:nth-child(even){
+        width: 48%;
+        float: right;
+    }
+    #paketler{
+        height:71rem;
+    }
+    main{
+        height: auto;
+    }
+    footer{
+        height: 20rem;
+    }
+    #sectionFooter{
+        width: 32%;
+        float: left;
+        margin-left: 1rem;
+    }
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
